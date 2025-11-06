@@ -15,7 +15,7 @@ import routes from "./routes";
 
 import "./config/passport.config";
 
-const app = express();
+const app = express();  
 const server = http.createServer(app);
 
 //socket
